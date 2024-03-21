@@ -1,0 +1,18 @@
+.elem {
+    position: relative; 
+    display: inline-block;
+}
+
+.elem b {
+    position: absolute; 
+    text-align: center; 
+    display: block; 
+    width: 22px; 
+    height: 22px; 
+    background-color: rgb(243, 241, 236); 
+}
+
+.elem b.in { cursor: pointer; }
+
+.elem_style_1 img { width: 110px; position: absolute; }
+.elem_style_2 img { width: 110px; position: absolute; }

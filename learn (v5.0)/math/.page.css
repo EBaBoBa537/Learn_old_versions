@@ -1,0 +1,238 @@
+@font-face { font-family: text_f; src: url("materials/fonts/calibri.ttf"); }
+@font-face { font-family: header_f; src: url("materials/fonts/nunito.ttf"); }
+
+body {
+    margin: 0px;
+    font-family: 'text_f';
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar { width: 12px; }
+body::-webkit-scrollbar-thumb { background-color: #767676; }
+body::-webkit-scrollbar-thumb:hover { background-color: #aaaaaa; }
+body::-webkit-scrollbar-track { background-color: #393939; }
+pre { display: inline-block; margin: 0px; }
+.headerline { user-select: none; }
+.tobeginbutton { user-select: none; }
+img { user-select: none; }
+div.headerline {
+    width: 100%;
+    height: 30px;
+    background-color: #393939;
+}
+div.headerline a {
+    color: #ceccc4;
+    font-size: 20px;
+    height: 30px;
+    margin-left: 10px;
+    text-decoration: none;
+    float: left;
+    line-height: 30px;
+    position: relative;
+    display: block;
+}
+div.headerline a b {
+    font-weight: normal;
+    color: #797979;
+}
+div.headerline a:hover { color: #ffffff; }
+
+div.header { 
+    width: 100%;
+    height: 230px;
+    background-color: #1b1b1b;
+    user-select: none;
+}
+div.header h1 {
+    top: 100px;
+    text-align: left;
+    color: #d5d5d5;
+    font-size: 100px;
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    display: block;
+    font-family: 'header_f';
+    margin-left: 250px;
+}
+div.header hr {
+    position: absolute;
+    border: none;
+    height: 8px;
+    background-color: #5c5c5c;
+    left: 250px;
+    width: 559px;
+    top: 215px;
+}
+
+div.bottomline {
+    width: 100%;
+    height: 30px;
+    background-color: #373737;
+    color: #ceccc4;
+    font-size: 20px;
+    line-height: 30px;
+    position: static;
+    bottom: 0px;
+}
+
+a.tobeginbutton {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    display: block;
+    position: fixed;
+    right: 28px;
+    bottom: 45px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    background-color: #bebebe;
+    color: #ffffff;
+}
+
+div.overcontent {
+    margin: 0px;
+    background-color: #dbdbdb;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+}
+
+div.menu {
+    font-family: 'header_f';
+    background-color: rgb(203 203 203);
+    color:rgb(0, 0, 0);
+    width: 275px;
+    overflow: hidden;
+    min-height: fit-content;
+    padding-top: 25px;
+    padding-right: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    /* border-top: #787878 5px solid; */
+}
+.menu h5 {
+    font-size: 32px;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 43px;
+    margin-left: -3px;
+}
+.menu h6 {
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu a {
+    font-family: 'text_f';
+    color: rgb(146 146 146);
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.menu a:hover { color: rgb(0, 0, 0); }
+.menu a.ref { margin-top: 10px; }
+
+div.content {
+    width: 1000px;
+    min-width: 1000px;
+    min-height: fit-content;
+    background-color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    font-size: 18px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border-top: #787878 5px solid; */
+}
+
+/* название страницы */
+div.content h2 {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    position: relative;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items:normal;
+    justify-content: center;
+}
+div.content h2 hr {
+    position: absolute;
+    border: none;
+    background-color: #c1c1c1;
+    height: 5px;
+    top: 40px;
+    left: 0px;
+    width: 100%;
+}
+div.content h2 span {
+    color: #000000;
+    font-size: 50px;
+    font-weight: normal;
+    position: absolute;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* надразделы */
+div.content h5 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 45px;
+    position: relative;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+}
+
+/* разделы */
+div.content h3 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 35px;
+    position: relative;
+    font-weight: normal;
+    text-align: left;
+}
+div.content h3 b {
+    font-weight: normal;
+    color: #adadad;
+}
+
+/* подразделы */
+div.content h4 {
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    position: relative;
+    font-weight: normal;
+    text-align: left;
+}
+div.content h4 b {
+    font-weight: normal;
+    color: #adadad;
+}
+
+/* ------------------------------------------------------- content -------------------------------------------------- */
+
+/* определения */
+div.content b { font-weight: bold; }
+
+/* формулы */
+div.content .math { display: inline-block; }
+div.content .math:hover { background-color: #ebeae0; }

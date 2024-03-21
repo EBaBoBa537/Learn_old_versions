@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ebaboba427</title>
+    <meta charset="UTF-8">
+    <link rel=stylesheet type=text/css href='Eba_da.css'>
+</head>
+
+<body>
+
+    <a name="sss_begin"></a>
+    <div class="header">
+        <h2><span class="ye">⬥</span>Язык C++</h2>
+    </div>
+
+    <div class="cherdak">
+        <a href="Eba.html">Главная</a> <b> / </b> <span class="ye">Программирование</span> <b> / </b> 
+        <a href="Eba_cplusplus.html">Язык С++</a> <b> / </b> 
+        <span id="text_1_ID"><a href="Eba_cplusplus_bazFunctional.html">Базовый функционал</a> <b> ▼ </b></span>
+    </div>
+
+    <div class="menu size2" id="menu_1_ID" style="width: 270px; left: 357px;">
+        <b>/ </b> <a href="Eba_cplusplus_podFunctional.html">Подключаемый функционал</a> <br>
+        <b>/ </b> <a href="Eba_cplusplus_spisokOp.html">Список операторов</a> <br>
+    </div>
+
+    <div class="content leftMenu">
+
+        <pre><a name="sss0"></a></pre>
+        <br> <br> 
+
+        <div class="inContent mainInContent">
+            <h3>Базовый функционал C++</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnb
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,
+                z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,
+                z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z </p>
+        </div>
+
+        <pre><a name="sss1"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l400">
+            <h3>Структура программы</h3>
+            <p>
+                Код состоит из <b class="clred">стейтментов</b> — структурных единиц кода, которые <b class="bold">обязательно</b> заканчиваются точкой с запятой. 
+                Пример стейтмента: 
+                <span class="colored"> <b class="c3">int</b> <b class="c4">value</b> = <b class="c7">15</b>; </span>. Стейтменты 
+                могут объединяться в <b class="clred">блоки</b> с помощью составного оператора <span class="colored">{}</span>.
+
+            </p>
+            <br> <br> <br>
+
+            <div class="content_right r400">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; HelloWorld</b> <br>
+                    <span class="colored wide"> <b class="c1">#include</b> <b class="c2">&#60;iostream&#62;</b> <br> 
+                        <b class="c1">using</b> <b class="c3">namespace</b> <b class="c5">std</b>; <br> <br> <b class="c3">int</b> 
+                        <b class="c6">main</b>() { <br> 
+                        &nbsp;&nbsp;&nbsp; <b class="c4">cout</b> <b>&#60;&#60;</b> <b class="c2">"Hello, World!"</b>; <br> 
+                        &nbsp;&nbsp;&nbsp; <b class="c1">return</b> <b class="c7">0</b>; 
+                        <br> } 
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss2"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l500">
+            <h3>Директивы препроцессора</h3>
+            <p><b class="clred">Директивы препроцессора</b> — специальные функции, обрабатываемые препроцессором.<br> <br>
+                <b class="clred">⬥</b> <b class="colored c1">#include</b> — сообщение препроцессору искать файл в системных 
+                путях либо в текущей директории. <br>
+                <b class="clred">⬥</b> <b class="colored c1">#define</b> — определение фрагмента кода <br>
+                <b class="clred">⬥</b> <b class="colored c1">#undef</b> — отменить определение фрагмента кода <br>
+                <b class="clred">⬥</b> <b class="colored c1">#ifdef</b> – <b class="colored c1">#endif</b> — если фрагмент кода определён <br>
+                <b class="clred">⬥</b> <b class="colored c1">#ifndef</b> – <b class="colored c1">#endif</b> — если фрагмент кода не определён <br>
+                <b class="clred">⬥</b> <b class="colored c1">#if</b> – <b class="colored c1">#elif</b> – 
+                <b class="colored c1">#else</b> — если выражение верно – иначе если выражение верно – иначе <br> 
+                <b class="clred">⬥</b> <b class="colored c1">#line</b> — изменить номер текущей строки и имя файла <br>
+                <b class="clred">⬥</b> <b class="colored c1">#error</b> — выдать пользовательское сообщение об ошибке <br>
+                <b class="clred">⬥</b> <b class="colored c1">#pragma once</b> — подключить только один раз <br>
+                <b class="clred">⬥</b> <b class="colored c1">#warning</b> — сообщение об ошибке без остановки компиляции <br>
+                <b class="clred">⬥</b> ...
+                <br> <br>
+                Директива <b class="colored c1">#include</b> — сообщение препроцессору искать файл в системных 
+                путях либо в текущей директории. Она копирует текст из файла без проверок содержимого. <b class="bold">Синтаксис</b>: <br>
+                <span class="colored"><b class="c1">#include</b> <b class="c2">&#60;fileName&#62;</b></span>, если 
+                нужно найти файл <b class="cou">fileName</b> в системных путях (как правило, так подключаются стандартные библиотеки) <br>
+                <span class="colored"><b class="c1">#include</b> <b class="c2">"fileName.h"</b></span>, если файл <b class="cou">fileName</b>
+                в текущей директории (так можно подключить собственные библиотеки). <br>
+            </p> 
+
+            <div class="content_right r500">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #ifndef – #endif</b> <br>
+                    <span class="colored wide"> <b class="c1">#ifndef</b> <b class="c3">FUNCTION_H</b> <br> <b class="c1">#define</b> 
+                        <b class="c3">FUNCTION_H</b><br> <br> <b class="c3">bool</b> <b class="c6">trueFunction</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c3">true</b>; <br> } <br> <br> 
+                        <b class="c1">#endif</b> 
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №3:</b> &nbsp; #include <br>
+                    (файл function.h из примера №1 и данный файл находятся в одной директории) </b> <br>
+                    <span class="colored wide"> <b class="c1">#include </b> <b class="c2">"function.h"</b> <br> <br>
+                        <b class="c3">int</b> <b class="c6">main</b>() { <br>
+                        &nbsp;&nbsp;&nbsp; <b class="c3">int</b> <b class="c6">trueValue</b> = <b class="c6">trueFunction</b>(); <br>
+                        &nbsp;&nbsp;&nbsp; <b class="c1">return</b> <b class="c3">true</b>; <br>
+                        } <br>
+                        <b class="c8">/* Теперь значение trueValue равно true */</b> <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss3"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Типы данных</h3>
+            <p>
+                <b class="clred">Тип данных</b> — одно из двух свойств выражений в С++. Бывают типы: <br>
+                <b class="clred">⬥</b> <b class="colored c3">bool</b> — логический тип. Может принимать значения 
+                <b class="colored c3">true</b> или <b class="colored c3">false</b> <br> 
+                <b class="clred">⬥</b> <b class="colored c3">int</b> — целочисленный тип. Примеры значений: <b class="colored c7">0</b>, 
+                <b class="colored c7">-12</b>, <b class="colored c7">1</b>, и др. <br> 
+                <b class="clred">⬥</b> <b class="colored c3">float</b> — тип чисел с плавающей точкой. Примеры значений: <b class="colored c7">1.23</b>,
+                <b class="colored c7">-0.3333</b>, <b class="colored c7">42.12</b>, и др. <br> 
+                <b class="clred">⬥</b> <b class="colored c3">double</b> — тип чисел с плавающей точкой большего размера, чем float. Примеры значений:
+                <b class="colored c7">423.1</b>, <b class="colored c7">-8.0</b>, <b class="colored c7">124.23</b>, и др.<br> 
+                <b class="clred">⬥</b> <b class="colored c3">char</b> — символьный тип. Примеры значений: <b class="colored c2">'a'</b>, 
+                <b class="colored c2">'4'</b>, <b class="colored c2">'-'</b>, <b class="colored c2">'\n'</b>, и др.<br> 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss4"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --> 
+
+        <div class="inContent l300">
+            <h3>Модификаторы</h3>
+            <p>
+                Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                    cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss5"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Операторы и перегрузка операторов</h3>
+            <p>
+                <b class="clred">Операторы</b> сообщают компилятору о необходимости выполнения 
+                какого-либо математического (с использованием операндов) или логического действия. <br><br>
+                <b class="clred">⬥</b> <b class="colored">{}</b> — составной оператор <br>
+                <b class="clred">⬥</b> <b class="colored">()</b> — оператор вызова / скобки в выражении / инициализация<br>
+                <b class="clred">⬥</b> <b class="colored">,</b> — оператор–разделитель выражений <br>
+                <b class="clred">⬥</b> <b class="colored">;</b> — оператор–разделитель стейтментов <br>
+                <b class="clred">⬥</b> <b class="colored">&nbsp;&nbsp;</b> (пробел) — ... <br>
+                <b class="clred">⬥</b> <b class="colored">\n</b> (переход на новую строку) — ... <br>
+                <b class="clred">⬥</b> <b class="colored">::</b> — оператор области видимости <br>
+                <b class="clred">⬥</b> <b class="colored">?:</b> — условный тернарный оператор <br> <br>
+                Операторы доступа: <br>
+                <b class="clred">⬥</b> <b class="colored">.</b> — оператор доступа к члену объекта <br>
+                <b class="clred">⬥</b> <b class="colored">[]</b> — индекс массива <br> <br>
+                <b class="clred">⬥</b> <b class="colored">–&#62;</b> — доступ к члену объекта через указатель объекта <br>
+                <b class="clred">⬥</b> <b class="colored">–&#62;*</b> — доступ к члену объекта через указатель на член объекта<br>
+                <b class="clred">⬥</b> <b class="colored">.*</b> — доступ к члену объекта через указатель на член объекта<br>
+                Математические операторы: <br>
+                <b class="clred">⬥</b> <b class="colored">+</b> — сложение / унарный плюс <br>
+                <b class="clred">⬥</b> <b class="colored">–</b> — вычитание / унарный минус <br>
+                <b class="clred">⬥</b> <b class="colored">*</b> — умножение <br>
+                <b class="clred">⬥</b> <b class="colored">/</b> — деление <br>
+                <b class="clred">⬥</b> <b class="colored">%</b> — остаток от деления <br><br>
+                Оператор присваивания: <br>
+                <b class="clred">⬥</b> <b class="colored">=</b> — присваивание <br><br>
+                Арифметические операторы присваивания: <br>
+                <b class="clred">⬥</b> <b class="colored">+=</b> — присваивание со сложением <br>
+                <b class="clred">⬥</b> <b class="colored">–=</b> — присваивание с вычитанием <br>
+                <b class="clred">⬥</b> <b class="colored">*=</b> — присваивание с умножением <br>
+                <b class="clred">⬥</b> <b class="colored">/=</b> — присваивание с делением <br>
+                <b class="clred">⬥</b> <b class="colored">%=</b> — присваивание с остатком от деления <br><br>
+                Операторы сравнения: <br> 
+                <b class="clred">⬥</b> <b class="colored">==</b> — равно <br>
+                <b class="clred">⬥</b> <b class="colored">!=</b> — не равно <br>
+                <b class="clred">⬥</b> <b class="colored">&#62;</b> — больше <br>
+                <b class="clred">⬥</b> <b class="colored">&#62;=</b> — больше или равно <br>
+                <b class="clred">⬥</b> <b class="colored">&#60;</b> — меньше <br>
+                <b class="clred">⬥</b> <b class="colored">&#60;=</b> — меньше или равно <br><br>
+                Логические операторы: <br> 
+                <b class="clred">⬥</b> <b class="colored">!</b> — НЕ <br>
+                <b class="clred">⬥</b> <b class="colored">&&</b> — И <br>
+                <b class="clred">⬥</b> <b class="colored">||</b> — ИЛИ <br><br>
+                Побитовые операторы: <br> 
+                <b class="clred">⬥</b> <b class="colored">~</b> — побитовое НЕ <br>
+                <b class="clred">⬥</b> <b class="colored">&</b> — побитовое И <br>
+                <b class="clred">⬥</b> <b class="colored">|</b> — побитовое ИЛИ <br>
+                <b class="clred">⬥</b> <b class="colored">^</b> — побитовое исключающее ИЛИ <br>
+                <b class="clred">⬥</b> <b class="colored">&#60;&#60;</b> — побитовый сдвиг влево <br>
+                <b class="clred">⬥</b> <b class="colored">&#62;&#62;</b> — побитовый сдвиг вправо <br>
+                <b class="clred">⬥</b> <b class="colored">&=</b> — присваивание с побитовым И <br>
+                <b class="clred">⬥</b> <b class="colored">|=</b> — присваивание с побитовым ИЛИ <br>
+                <b class="clred">⬥</b> <b class="colored">^=</b> — присваивание с побитовым исключающее ИЛИ <br>
+                <b class="clred">⬥</b> <b class="colored">&#60;&#60;=</b> — присваивание с побитовым сдвигом влево <br>
+                <b class="clred">⬥</b> <b class="colored">&#62;&#62;=</b> — присваивание с побитовый сдвигом вправо <br>
+                Операторы инкремента–декремента: <br>
+                <b class="clred">⬥</b> <b class="colored">++</b> — пост-инкремент / пре-инкремент<br>
+                <b class="clred">⬥</b> <b class="colored">––</b> — пост-декремент / пре-декремент<br>
+                Оператор адреса: <br>
+                <b class="clred">⬥</b> <b class="colored">&</b> — адрес<br>
+                Оператор разыменования: <br>
+                <b class="clred">⬥</b> <b class="colored">*</b> — разыменование<br>
+
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss6"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Переменные, указатели, ссылки</h3>
+            <p>
+                <b class="clred">Переменная</b> — это объект с именем, которых хранит значение l-value. <br>
+                Правила называния переменных: <br>
+                <b class="bold">–</b> Имена переменных могут содержать буквы A–Z и a–z, цифры 0–9 и знак подчеркивания "_" <br>
+                <b class="bold">–</b> Имя не может начинаться с цифры <br>
+                <b class="bold">–</b> Регистр учитывается, то есть <b class="cou">NAME</b> и <b class="cou">name</b> — это разные имена <br>
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss7"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --> 
+
+        <div class="inContent l300">
+            <h3>Массивы и динамические массивы</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss8"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Циклы</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss9"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Структуры</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss10"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l400">
+            <h3>Перечисления</h3>
+            <p>
+                <b class="clred">Перечисления</b> — это тип данных, объекты которого 
+                хранят перечислители. <b class="clred">Перечислители</b> — это 
+                нумерованные символьные переменные. Поскольку перечислители вместе с перечислением находятся в 
+                едином пространстве имен, то имена перечислителей не могут повторяться в разных перечислениях. <br>
+                <span class="colored"> <b class="c3">enum</b> <b class="c5">Numbers</b> {} <br></span>
+            </p>
+
+            <div class="content_right r400">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; Создание перечисления</b> <br>
+                    <span class="colored"> <b class="c3">enum</b> <b class="c5">Numbers</b> {<br> 
+                        &nbsp;&nbsp;&nbsp;<b class="c9">ONE</b>, <br>
+                        &nbsp;&nbsp;&nbsp;<b class="c9">TWO</b>, <br>
+                        &nbsp;&nbsp;&nbsp;<b class="c9">THREE</b> = <b class="c7">3</b>, <br>
+                        } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss11"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --> 
+
+        <div class="inContent l300">
+            <h3>Функции и перегрузка функций</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss12"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --> 
+
+        <div class="inContent l300">
+            <h3>Классы и наследование</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div> 
+
+        <pre><a name="sss13"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA -->
+
+        <div class="inContent l300">
+            <h3>Исключения</h3>
+            <p>Annnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+                cmnbAnnnnenkdsanbcnkxlmax.,z cmnbAnnnnenkdsanbcnkxlmax.,z 
+            </p>
+
+            <div class="content_right r300">
+                <p class="in_content_right">
+                    <b class="name"><b class="undrl">Пример №1:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> <br>
+                    <b class="name"><b class="undrl">Пример №2:</b> &nbsp; #pragma once</b> <br>
+                    <span class="colored wide"> <b class="c1">#pragma once</b> <br> 
+                        <br> <b class="c3">int</b> <b class="c6">function</b>() { <br> &nbsp; 
+                        &nbsp;&nbsp;<b class="c1">return</b> <b class="c7">5</b>; <br> } <br>
+                    </span>
+                    <br> &nbsp;
+                </p>
+            </div>
+        </div>
+
+        <pre><a name="sss14"></a></pre>
+        <br> <br> <!-- AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA --> 
+
+        <div class="inContent mainInContent">
+            <h3>Источники</h3>
+                <a href="https://ravesli.com/uroki-cpp/"><b class="clred">⬥</b> https://ravesli.com/uroki-cpp/</a> <br>
+                <a href="http://all-ht.ru/inf/pc/cp_struct.html"><b class="clred">⬥</b> http://all-ht.ru/inf/pc/cp_struct.html</a> <br>
+                <a href="https://docs.fileformat.com/"><b class="clred">⬥</b> https://docs.fileformat.com/</a> <br>
+                <a href="https://habr.com/ru/post/136878/"><b class="clred">⬥</b> https://habr.com/ru/post/136878/</a> <br>
+                <a href="https://learn.javascript.ru/"><b class="clred">⬥</b> https://learn.javascript.ru/</a> <br>
+                <a href="http://htmlbook.ru/css"><b class="clred">⬥</b> http://htmlbook.ru/css</a> <br>
+                <a href="http://htmlbook.ru/html"><b class="clred">⬥</b> http://htmlbook.ru/html</a> <br><br>
+        </div>
+
+        <div id="leftMenu_ID">
+            <p>
+                <br><b class="zagolovok">Содержание</b> <br><br><br>
+                <a href="#sss0" class="text">Базовый функционал С++</a> <br><br>
+                <a href="#sss1" class="text">Структура программы</a> <br><br>
+                <a href="#sss2" class="text">Директивы препроцессора</a> <br><br>
+                <a href="#sss3" class="text">Типы данных</a> <br><br>
+                <a href="#sss4" class="text">Модификаторы</a> <br><br>
+                <a href="#sss5" class="text">Операторы и перегрузка операторов</a> <br><br>
+                <a href="#sss6" class="text">Перемнные, указатели, ссылки</a> <br><br>
+                <a href="#sss7" class="text">Массивы и динамические массивы</a> <br><br>
+                <a href="#sss8" class="text">Циклы</a> <br><br>
+                <a href="#sss9" class="text">Структуры</a> <br><br>
+                <a href="#sss10" class="text">Перечисления</a> <br><br>
+                <a href="#sss11" class="text">Функции и перегрузка функций</a> <br><br>
+                <a href="#sss12" class="text">Классы и наследование</a> <br><br>
+                <a href="#sss13" class="text">Исключения</a> <br><br>
+                <a href="#sss14" class="text ist">Источники</a> <br><br>
+            </p> 
+        </div>
+
+    </div>
+
+    <a href="#sss_begin" id="toBegin_ID">▲</a>
+
+    <div class="ground">
+            <a href="Eba.html">Главная</a>
+    </div>
+
+    <script src="Eba_da.js"></script>
+    <script src="Eba_da_scrolls.js"></script>
+</body>
+
+</html>

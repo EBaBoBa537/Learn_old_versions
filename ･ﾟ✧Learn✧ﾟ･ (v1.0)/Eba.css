@@ -1,0 +1,100 @@
+@font-face {
+    font-family: roboto-slab;
+    src: url("Eba/fonts/RobotoSlab-Light.ttf");
+}
+
+@font-face {
+    font-family: nunito;
+    src: url("Eba/fonts/Nunito-Regular.ttf");
+}
+
+body {
+    background-color: rgb(34, 34, 33);
+    margin-top: 130px;
+    margin-bottom: 20px;
+    position: absolute;
+    padding-left: 20px;
+}
+
+div.menuMain {
+    position: absolute;
+    top: 0px;
+    left: 960px;
+    width: 400px;
+    border: 3px solid white;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+p {
+    color: rgb(147, 182, 141); 
+    font-size: 21px;
+    height: 21px;
+    font-family: 'nunito', sans-serif;
+    font-weight: 400;
+    position: relative;
+    margin: 10px;
+    margin-left: 0px;
+}
+
+span {
+    font-size: 21px;
+    height: 21px;
+    margin: 0px;
+    left: 25px;
+    position: relative; 
+}
+
+p {
+    text-decoration: underline;
+}
+
+h1 {
+    font-size: 90px;
+    font-family: 'roboto-slab', serif;
+    font-weight: 200;
+    color: white;
+    position: relative;
+    top: 220px;
+    width: 800px;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 span {
+    padding: 0px;
+    font-size: 90px;
+    margin: 0px;
+}
+
+
+.gr {
+    color: rgb(147, 182, 141);
+}
+.re {
+    color: rgb(184, 138, 138);
+}
+.bl {
+    color: rgb(128, 171, 196);
+}
+.ye {
+    color: rgb(196, 186, 128);
+}
+.pu {
+    color: rgb(163, 128, 196);
+}
+.or {
+    color: rgb(196, 161, 128);
+}
+
+
+a {
+    color: white;
+    font-size: 20px;
+    height: 20px;
+    font-family: 'nunito', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    left: 28px;
+}
